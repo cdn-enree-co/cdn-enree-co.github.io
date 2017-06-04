@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
+  <ShortName>Google</ShortName>
+  <Description>Google</Description>
+  <InputEncoding>UTF-8</InputEncoding>
+  <Url method="get" type="text/html" template="http://www.google.com/search?q={searchTerms}">
+  	
+  </Url>
+  <Url method="get" type="application/atom+xml" template="https://www.googleapis.com/customsearch/v1?alt=atom&amp;cx=003453265304711130339:apciuzw8y8c&amp;q={searchTerms}&amp;key=AIzaSyBMsabx_hiWWZSkPToUXbhPn81VlTdh_uQ" />
+</OpenSearchDescription>
